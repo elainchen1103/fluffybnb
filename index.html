@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>陳宅寵物寄宿｜Fluffy BnB</title>
+<style>
+:root{--cream:#fff8ef;--sand:#f6e6d2;--peach:#f2a77f;--rose:#d97b75;--brown:#6f5145;--ink:#4a3a34;--white:#fffdf9}
+*{box-sizing:border-box}body{margin:0;font-family:"Noto Sans TC","PingFang TC",sans-serif;background:var(--cream);color:var(--ink)}
+a{text-decoration:none;color:inherit}.wrap{max-width:1080px;margin:auto;padding:0 20px}
+header{position:sticky;top:0;background:rgba(255,248,239,.94);backdrop-filter:blur(10px);z-index:10;border-bottom:1px solid #ead8c5}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0}.brand{font-weight:800}.brand small{display:block;font-weight:500;color:#947869}
+nav{display:flex;gap:20px;font-size:14px}.btn{display:inline-block;background:var(--rose);color:#fff;padding:12px 18px;border-radius:999px;font-weight:700}
+.hero{padding:64px 0 36px}.hero-card{background:linear-gradient(135deg,#f9d9c5,#f7ebda);border-radius:32px;padding:44px;display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;box-shadow:0 15px 40px rgba(111,81,69,.08)}
+.hero h1{font-size:48px;line-height:1.12;margin:0 0 18px}.hero p{font-size:18px;line-height:1.8}.dog-art{min-height:320px;border-radius:28px;background:#fff7f1;display:grid;place-items:center;font-size:120px;position:relative;overflow:hidden}.dog-art:after{content:"♡  paw  ♡";position:absolute;bottom:24px;font-size:18px;letter-spacing:6px;color:#c88f83}
+.section{padding:52px 0}.section h2{text-align:center;font-size:32px;margin:0 0 12px}.lead{text-align:center;color:#806a61;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--white);border:1px solid #ecdcca;border-radius:24px;padding:24px;box-shadow:0 10px 28px rgba(111,81,69,.05)}.icon{font-size:34px}.card h3{margin:12px 0 8px}.muted{color:#8a7469;line-height:1.7}
+.diary{background:#f8e8dc;border-radius:30px;padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:28px}.login-box{background:white;border-radius:22px;padding:24px}.login-box input{width:100%;padding:14px 16px;border-radius:14px;border:1px solid #dcc8b8;margin:10px 0 14px;font-size:16px}
+.status{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.status div{background:#fff8f2;border-radius:16px;padding:14px}
+.rules{columns:2;column-gap:28px}.rules .card{break-inside:avoid;margin-bottom:18px}
+footer{padding:34px 0 60px;text-align:center;color:#8b7468}
+.badge{display:inline-block;background:#fff0e7;color:#a46159;padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:12px}
+@media(max-width:760px){nav{display:none}.hero-card,.diary{grid-template-columns:1fr}.hero h1{font-size:38px}.grid{grid-template-columns:1fr}.rules{columns:1}.dog-art{min-height:230px;font-size:86px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><div class="brand">陳宅寵物寄宿<small>Fluffy BnB</small></div><nav><a href="#about">關於陳宅</a><a href="#services">照護內容</a><a href="#rules">入住須知</a><a href="#diary">毛孩日記</a></nav><a class="btn" href="#contact">預約詢問</a></div></header>
+<main>
+<section class="hero"><div class="wrap"><div class="hero-card"><div><span class="badge">居家型毛孩住宿</span><h1>像回家一樣，<br>自在住幾天。</h1><p>陳宅寵物寄宿提供不關籠、自由活動的居家照護。每天記錄吃飯、喝水、便便、尿尿、活動與精神狀況，讓家長安心掌握毛孩的一天。</p><a class="btn" href="#diary">查看毛孩日記</a></div><div class="dog-art">🐶🐾</div></div></div></section>
+<section class="section" id="about"><div class="wrap"><h2>在陳宅，日常照顧就是重點</h2><p class="lead">固定作息、足夠活動、熟悉的生活節奏。</p><div class="grid"><div class="card"><div class="icon">🏡</div><h3>居家自由活動</h3><p class="muted">以居家型空間照護，不關籠，依每隻毛孩個性安排活動與休息。</p></div><div class="card"><div class="icon">🐕</div><h3>早晚如廁與放風</h3><p class="muted">維持規律如廁節奏，夜間也安排充足放風與陪伴時間。</p></div><div class="card"><div class="icon">📷</div><h3>每日生活紀錄</h3><p class="muted">餐食、排便、精神、活動與照片集中記錄，家長可隨時查看。</p></div></div></div></section>
+<section class="section" id="diary"><div class="wrap"><h2>毛孩住宿日記</h2><p class="lead">輸入飼主手機號碼，查看目前入住毛孩的每日照護紀錄。</p><div class="diary"><div class="login-box"><h3>家長專屬入口</h3><label>飼主手機號碼</label><input placeholder="例如 0912345678"><button class="btn" style="border:0;cursor:pointer">查看住宿日記</button><p class="muted" style="font-size:13px">正式版會加入存取驗證、錯誤次數限制與禁止搜尋引擎收錄。</p></div><div class="login-box"><span class="badge">住宿 Day 3</span><h3>COPY｜今日狀況</h3><div class="status"><div>🍚 飲食<br><b>早餐、晚餐吃完</b></div><div>💩 便便<br><b>正常・2 次</b></div><div>💧 喝水<br><b>正常</b></div><div>😊 精神<br><b>很好</b></div></div><p class="muted">今日小日記：下午玩完直接睡翻，晚上看到牽繩又瞬間有精神 ♡</p></div></div></div></section>
+<section class="section" id="services"><div class="wrap"><h2>照護內容</h2><p class="lead">把每天容易忘記的小事，變成清楚的照護流程。</p><div class="grid"><div class="card"><div class="icon">🍚</div><h3>飲食紀錄</h3><p class="muted">早餐、晚餐、零食與鮮食加購可分開記錄。</p></div><div class="card"><div class="icon">💊</div><h3>用藥提醒</h3><p class="muted">有服藥需求的毛孩可建立每日用藥欄位。</p></div><div class="card"><div class="icon">📝</div><h3>晚間統整</h3><p class="muted">未來可串接 LINE 官方帳號，晚上統一發送當日照護摘要。</p></div></div></div></section>
+<section class="section" id="rules"><div class="wrap"><h2>入住須知</h2><p class="lead">依陳宅現行服務規範整理。</p><div class="rules"><div class="card"><h3>入住準備</h3><p class="muted">入住前一週內完成洗澡，準備平常吃的飼料、零食、睡墊、牽繩與熟悉物品；健康、驅蟲與疫苗資訊請事先告知。</p></div><div class="card"><h3>預約與訂金</h3><p class="muted">訂金以一晚住宿費計算，確認預約後依約定時間完成付款；取消後訂金不退、不延期。</p></div><div class="card"><h3>個性與健康</h3><p class="muted">請誠實告知攻擊性、分離焦慮、護食、用藥、過敏與其他需要特別注意的狀況。</p></div><div class="card"><h3>鮮食加購</h3><p class="muted">鮮食可加購，每餐 NT$80，依毛孩狀況搭配蛋白質、蔬菜與主食。</p></div><div class="card"><h3>入住與退房</h3><p class="muted">第一天支付住宿尾款，接送與退房時間請依事前約定；若需要協助接送，請提前預約與確認費用。</p></div><div class="card"><h3>隱私</h3><p class="muted">公開網站僅顯示大約服務區域，完整住址於確認預約後提供。</p></div></div></div></section>
+<section class="section" id="contact"><div class="wrap"><div class="hero-card" style="grid-template-columns:1fr;text-align:center"><div><span class="badge">Fluffy BnB</span><h2 style="font-size:34px;margin:0 0 12px">讓毛孩住得自在，家長看得安心。</h2><p class="muted">LINE 官方帳號、預約方式與實際聯絡資訊會在正式上線前補上。</p></div></div></div></section>
+</main>
+<footer><div class="wrap">陳宅寵物寄宿｜Fluffy BnB · Taichung</div></footer>
+</body>
+</html>
